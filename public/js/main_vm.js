@@ -6,7 +6,12 @@ const socket =io();
 function setUserId({sID, message}) {
     //debugger;
     vm.socketID = sID;
+    
 }
+
+
+    
+
 
 function runDisconnectMessage(packet){
     //debugger;
